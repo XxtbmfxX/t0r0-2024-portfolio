@@ -1,20 +1,19 @@
 ---
 layout: ../../layouts/MarkdownWorksLayout.astro
-title: 'Project 2'
-description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci'
+title: 'Drum machine'
+description: 'Sample drum machine'
 image:
-    url: '/GitHub.webp'
-    alt: 'GitHub wallpaper'
+    url: '/projects/drum-machine.png'
+    alt: 'drum machine'
 worksImage1:
-    url: '/image-1.webp'
-    alt: 'first image of your project.'
-worksImage2:
-    url: '/image-2.webp'
-    alt: 'second image of your project.'
+    url: '/projects/drum-machine.png'
+    alt: 'drum machine'
+
 platform: Web
 stack: Astro, JavaScript
-website: https://astro-milky-way.netlify.app/
-github: https://github.com/ttomczak3/Milky-Way
+website: https://eclectic-caramel-531749.netlify.app
+github: https://github.com/XxtbmfxX/FCC-Drum-machine
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus a tortor at molestie. Sed pellentesque leo auctor, auctor lorem nec, venenatis risus. Vivamus commodo ipsum vitae orci finibus, vel porta nunc viverra. In hac habitasse platea dictumst. Nunc pretium, ligula ultricies consequat sollicitudin, enim ex ullamcorper nisl.
+
+First project  post

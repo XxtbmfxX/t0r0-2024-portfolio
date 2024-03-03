@@ -14,7 +14,13 @@ const { frontmatter } = Astro.props;
     <p><small>GITHUB</small><a class="page-link" href={frontmatter.github} target="_blank">{frontmatter.github}</a></p>
     <div class="img">
         <img width="500px" height="281" src={frontmatter.worksImage1.url} alt={frontmatter.worksImage1.alt} />
+
+        {frontmatter.worksImage2 ? 
+        
         <img width="500px" height="281" src={frontmatter.worksImage2.url} alt={frontmatter.worksImage2.alt} />
+        : 
+        <span>That's all folks</span>
+    }
     </div>
 </BaseLayout>
 <style>
@@ -25,6 +31,7 @@ const { frontmatter } = Astro.props;
     img {
         border-radius: 16px;
         margin-top: 10px;
+        height: auto;
     }
 
     small {
