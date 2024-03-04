@@ -12,7 +12,7 @@ const { pageTitle, description= "T0R0 2024 portfolio" } = Astro.props;
 <html transition:animate="none" lang="en">
 	<head>
         <meta charset="utf-8" />
-        <meta name="description" content="Astro description">
+        <meta name="description" content="Just a simple portfolio">
         <meta name="viewport" content="width=device-width" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,6 +22,26 @@ const { pageTitle, description= "T0R0 2024 portfolio" } = Astro.props;
         <meta name="generator" content={Astro.generator} />
         <meta name="description" content={description}   />
         <title>{pageTitle}</title>
+
+        <!-- SEO -->
+
+        	<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://t0r0-2024-portfolio.netlify.app">
+<meta property="og:type" content="website">
+<meta property="og:title" content="T0R0 Portfolio">
+<meta property="og:description" content="Just a simple portfolio">
+<meta property="og:image" content="./portfolio_image.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="t0r0-2024-portfolio.netlify.app">
+<meta property="twitter:url" content="https://t0r0-2024-portfolio.netlify.app">
+<meta name="twitter:title" content="T0R0 Portfolio">
+<meta name="twitter:description" content="Just a simple portfolio">
+<meta name="twitter:image" content="./portfolio_image.png">
+
+
+
         <ViewTransitions />
 	</head>
 	<body>
