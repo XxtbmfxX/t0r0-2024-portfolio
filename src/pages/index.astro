@@ -1,6 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
 const pageTitle = "T0R0 Portfolio";
+
+const spnaBackgroundColor = "#584966"
+
 ---
 
 <Layout pageTitle={pageTitle}>
@@ -76,14 +79,17 @@ const pageTitle = "T0R0 Portfolio";
     </ul>
   </section>
 </Layout>
-<style>
+
+<style define:vars={{
+  spnaBackgroundColor
+}} >
   .hero-img {
     border-radius: 100%;
   }
 
   /* small */
   small {
-    background-color: #584966;
+    background-color: var(--spnaBackgroundColor);
     color: #fdebf3;
     border-radius: 6px;
     font-family: "Josefin Sans", sans-serif;
